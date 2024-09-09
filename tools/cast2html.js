@@ -20,7 +20,7 @@ AsciinemaPlayer.create({ data: ${JSON.stringify(text)} }, document.getElementByI
 </html>`;
             var download_element = document.createElement('a');
             download_element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(html));
-            download_element.setAttribute('download', "cast.html");
+            download_element.setAttribute('download', "output.html");
             download_element.click();
         });
     }
